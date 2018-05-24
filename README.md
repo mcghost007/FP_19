@@ -1,2 +1,37 @@
-# FP_19
-Terbatasnya jangkauan pemasaran produk dan sistem promosi barang yang kurang efisien kepada masyarakat menyebabkan omzet yang dicapai tidak sesuai target. E-commerce merupakan paradigma baru dalam dunia bisnis yang menggunakan jasa online. Banyak barang yang dapat ditawarkan melalui e-commerce seperti penjualan pakaian secara online dengan menggunakan website. Dengan sistem ini pelanggan tidak perlu repot datang ke toko dan dapat memesan barang kapan saja tanpa batasan waktu.  Narrow adalah website e-commerce usaha fashion yang memudahkan pelanggan untuk membeli pakaian secara online. Dengan harga terjangkau, apalagi hanya tinggal klik barang sudah dikirim dirumah dengan free ongkir, Sangatlah jarang. Keunggulan dari usaha ini antara lain manfaatnya bagi masyarakat yaitu sangat baik untuk menambah wawasan dan ilmu pengetahuan tentang fashion dunia.
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/mcghost007/FP_19/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mcghost007/FP_19/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
