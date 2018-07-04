@@ -1,0 +1,21 @@
+.navbar-inverse {
+    background-color: #BBF3f2;
+    border-color: transparent;
+    padding: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.form-control{
+	color: black;
+	background-color: #c5c1c1;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #37b7f8;
+    border-color: transparent;
+    width: 100%;
+}
