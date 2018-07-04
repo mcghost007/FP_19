@@ -2,13 +2,13 @@
 <html>
 <head>
 
-	<title>:: NARROW | WISHLIST ::</title>
+  <title>:: NARROW | TAS ::</title>
 
-	<!-- ............... META ............... -->
+  <!-- ............... META ............... -->
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- ............... CSS ............... -->
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -25,9 +25,7 @@
 
   <link rel="stylesheet" href="assets/css/footer.css">
 
-  <!-- <link rel="stylesheet"  href="assets/css/faq.css"> -->
-
-  <!-- ............... JS ............... -->
+  <!-- JS -->
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -39,26 +37,20 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-
-  <!-- <script src="assets/js/search.js"></script> -->
-
-  <!-- ............... FOOTER ............... -->
+  <!-- FOOTER -->
 
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-	
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-	<!-- ............... FONT AWESOME ............... -->
-
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 <body>
 
-	<!-- ............... NavBar ............... -->
+  <!-- ............... NavBar ............... -->
 
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -67,7 +59,7 @@
         <ul class="nav navbar-nav navbar-center">
           <li><a id="" href="index.html"><div class="logo"></div></a></li>
           <li><a id="" href="pria.html">PRIA</a></li>
-          <li><a id="" href="#=wanita.html">WANITA</a></li>
+          <li><a id="" href="wanita.html">WANITA</a></li>
         </ul>
       </div>
 
@@ -112,125 +104,258 @@
         <li><a id="" href="sepatupria.html">SEPATU</a></li>
         <li><a id="" href="jampria.html">JAM TANGAN</a></li>
         <li><a id="" href="aksesorispria.html">AKSESORIS</a></li>
-        <li><a id="" href="taspria.html">TAS</a></li>
-        <li><a id="" href="#">TERPOPULER</a></li>
-        <li><a id="" href="#">BARU</a></li>
+        <li class="active"><a id="" href="taspria.html">TAS</a></li>
+        <li><a id="" href="populer.html">TERPOPULER</a></li>
+        <li><a id="" href="baru.html">BARU</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-left col-md-1">
-        <li><a id="" href=""><font color="red">SALE</font></a></li>
+        <li><a id="" href="sale.html"><font color="red">SALE</font></a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- ............... CONTAINER ............... -->
-<div ng-app="" ng-init="item1;item2;item3;harga1=549000;harga2=399000;harga3=3309000">
-  <div class="container" id="thumbnail">
-    <div class="col-md-12">
-      <font face="tahoma" size="7"><b>WISHLIST</b></font>
-      <br><br>
-      <a href="index.html" class="beranda">BERANDA</a><br><br>
-		  <a href="cart.html" class="beranda"><< LANJUTKAN BELANJA</a>
-      <br><br><br>
-    </div>
   
-    <div class="col-md-2">
-      <div class="thumbnail">
-        <img src="assets/img/item1.jpg" alt="imgae" style="max-width: 100%">
-        <p align="center">Size : 42</p>
-      </div>
-    </div>
 
-    <div class="col-md-2">
-      <p align="center">NAMA</p><br><br><br>
-      <p align="center">Vans Ua Authentic</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">JUMLAH</p><br><br><br>
-      <P align="center"><input type="text" class="form-control" ng-model="item1" ng-init="1"></P>
-    </div>
-    <div class="col-md-2">
-      <p align="center">HARGA</p><br><br><br>
-      <p align="center">Rp 549.000</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">TOTAL</p><br><br><br>
-      <p align="center">Rp {{ item1 * harga1 }}</p>
-    </div>
-    <div class="col-md-2">
-      <br><br><br><br>
-      <a href="cart.html">
-        <button type="button" class="btn">PESAN</button>
-      </a>
-    </div>
-  </div>
+    <!-- ............... PAGINATION ............... -->
 
   <br>
-
-  <div class="container" id="thumbnail">
-    <div class="col-md-2">
-      <div class="thumbnail">
-        <img src="assets/img/item3.jpg" alt="imgae" style="max-width: 100%">
-        <p align="center">Size : M</p>
-      </div>
-    </div>
-
-    <div class="col-md-2">
-      <p align="center">NAMA</p><br><br><br>
-      <p align="center">Zip Up Denim Dress</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">JUMLAH</p><br><br><br>
-      <P align="center"><input type="text" class="form-control" ng-model="item2" ng-init="1"></P>
-    </div>
-    <div class="col-md-2">
-      <p align="center">HARGA</p><br><br><br>
-      <p align="center">Rp 399.000</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">TOTAL</p><br><br><br>
-      <p align="center">Rp {{ item2 * harga2 }}</p>
-    </div>
-    <div class="col-md-2">
-      <br><br><br><br>
-      <button type="button" class="btn">PESAN</button>
-    </div>
-  </div>
-
   <br>
-
-  <div class="container" id="thumbnail">
-    <div class="col-md-2">
-      <div class="thumbnail">
-        <img src="assets/img/item5.jpg" alt="imgae" style="max-width: 100%">
-        <p align="center">Size : -</p>
-      </div>
-    </div>
-
-    <div class="col-md-2">
-      <p align="center">NAMA</p><br><br><br>
-      <p align="center">Stuhrling Original</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">JUMLAH</p><br><br><br>
-      <P align="center"><input type="text" class="form-control" ng-model="item3" ng-init="1"></P>
-    </div>
-    <div class="col-md-2">
-      <p align="center">HARGA</p><br><br><br>
-      <p align="center">Rp 3.309.000</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">TOTAL</p><br><br><br>
-      <p align="center">Rp {{ item3 * harga3 }}</p>
-    </div>
-    <div class="col-md-2">
-      <br><br><br><br>
-      <button type="button" class="btn">PESAN</button>
+  <div class="container">
+    <div class="col-md-12" align="center">
+      <ul class="pagination">
+        <li class="active"><a href="taspria.html">PRIA</a></li>
+        <li><a href="taswanita.html">WANITA</a></li>
+      </ul>
     </div>
   </div>
-</div>
+
   <br><br><br>
 
-  <!-- .............. Footer ............... -->
+  <!-- ............... ITEM ............... -->
+
+  <div class="container">
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp1.jpg">
+            <p align="center">Structured Briefcase With Flap Front</p>
+            <p color="" align="center">Rp 449.900</p>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp2.jpg">
+            <p align="center">Byford Messanger Bag</p>
+            <p color="" align="center">Rp 4.899.000</p>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp3.jpg">
+            <p align="center">Hush Puppies Reeves Sling</p>
+            <p color="" align="center">Rp 1.099.000</p>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp4.jpg">
+            <p align="center">Jaxon Urban Canvas Backpage</p>
+            <p color="" align="center">Rp 349.000</p>
+          </a>
+        </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp5.jpg">
+            <p align="center">Nike Air Max 95 Ultra PRM BR</p>
+            <p color="" align="center">Rp 2.519.000</p>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp6.jpg">
+            <p align="center">Nike Air Max 270 Flyknit</p>
+            <p color="" align="center">Rp 2.519.000</p>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp7.jpg">
+            <p align="center">Nike Air VaporMax Flyknit Running</p>
+            <p color="" align="center">Rp 2.779.000</p>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp8.jpg">
+            <p align="center">Adidas Pureboost Clima</p>
+            <p color="" align="center">Rp 2.500.000</p>
+          </a>
+        </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp9.jpg">
+            <p align="center">Bocorocco U. Bruno 04</p>
+            <p color="" align="center">Rp 2.490.000</p>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp10.jpg">
+            <p align="center">Bocorocco U. Bruno 08</p>
+            <p color="" align="center">Rp 2.490.000</p>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp11.jpg">
+            <p align="center">Dr. Martens Newton</p>
+            <p color="" align="center">Rp 2.699.000</p>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="produk.html">
+            <img src="assets/img/tp12.jpg">
+            <p align="center">Dr. Martens 1461 Elt</p>
+            <p color="" align="center">Rp 2.599.000</p>
+          </a>
+        </div>
+    </div>
+  </div>
+
+  <br>
+  <hr>
+  <br>
+
+  <!-- .............. BRAND ...................... -->
+
+  <div class="container">
+    <p align="center"><font face="tahoma" size="4"><b>BRAND - BRAND TERPOPULER</b></font></p><br>
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a id="content" href="#" target="">
+            <img src="assets/img/brand1.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a id="content" href="#" target="">
+            <img src="assets/img/brand2.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a id="content" href="#" target="">
+            <img src="assets/img/brand3.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a id="content" href="#" target="">
+            <img src="assets/img/brand4.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a id="content" href="#" target="">
+            <img src="assets/img/brand5.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a id="content" href="#" target="">
+            <img src="assets/img/brand6.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a id="content" href="#" target="">
+            <img src="assets/img/brand7.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a id="content" href="#" target="">
+            <img src="assets/img/brand8.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a id="content" href="#" target="">
+            <img src="assets/img/brand9.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <br><br><br>
+
+<!-- .............. Footer ............... -->
 
   <div class="container" id="thumbnail">
     <footer class="footer1">
@@ -316,6 +441,5 @@
       </div>
     </div>
   </div>
-
 </body>
 </html>

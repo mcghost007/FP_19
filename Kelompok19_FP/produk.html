@@ -41,6 +41,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 
+  <script src="assets/js/star.js"></script>
+
   <!-- <script src="assets/js/search.js"></script> -->
 
   <!-- ............... FOOTER ............... -->
@@ -123,111 +125,134 @@
   </nav>
 
   <!-- ............... CONTAINER ............... -->
-<div ng-app="" ng-init="item1;item2;item3;harga1=549000;harga2=399000;harga3=3309000">
   <div class="container" id="thumbnail">
     <div class="col-md-12">
       <font face="tahoma" size="7"><b>WISHLIST</b></font>
       <br><br>
       <a href="index.html" class="beranda">BERANDA</a><br><br>
-		  <a href="cart.html" class="beranda"><< LANJUTKAN BELANJA</a>
+      <a href="cart.html" class="beranda"><< LANJUTKAN BELANJA</a>
       <br><br><br>
     </div>
   
-    <div class="col-md-2">
-      <div class="thumbnail">
+    <div class="col-md-4">
+      <div align="center">
         <img src="assets/img/item1.jpg" alt="imgae" style="max-width: 100%">
-        <p align="center">Size : 42</p>
+ <div class='rating-stars text-center'>
+    <ul id='stars'>
+      <li class='star' title='Poor' data-value='1'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+      <li class='star' title='Fair' data-value='2'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+      <li class='star' title='Good' data-value='3'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+      <li class='star' title='Excellent' data-value='4'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+      <li class='star' title='WOW!!!' data-value='5'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+    </ul>
+  </div>
       </div>
     </div>
 
-    <div class="col-md-2">
-      <p align="center">NAMA</p><br><br><br>
-      <p align="center">Vans Ua Authentic</p>
+    <div class="col-md-6">
+      <p align="left">Vans Ua Authentic <br>Rp 549.000
+        <ul>
+          <li>Sneakers kasual detail tali depan</li>
+          <li>Warna Navy</li>
+          <li>Material kanvas</li>
+          <li>Insole sintetis</li>
+          <li>Rubber outsole</li>
+          <li>Round toe</li>
+        </ul>
+Estimasi pengiriman <br>
+<i>Yogyakarta 1-3 hari kerja, luar Yogyakarta 2-6 hari kerja
+<br>Nikmati layanan pengiriman ekspres khusus wilayah Yogyakarta untuk metode bayar di tempat (COD).</i> </p>
     </div>
-    <div class="col-md-2">
-      <p align="center">JUMLAH</p><br><br><br>
-      <P align="center"><input type="text" class="form-control" ng-model="item1" ng-init="1"></P>
-    </div>
-    <div class="col-md-2">
-      <p align="center">HARGA</p><br><br><br>
-      <p align="center">Rp 549.000</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">TOTAL</p><br><br><br>
-      <p align="center">Rp {{ item1 * harga1 }}</p>
-    </div>
-    <div class="col-md-2">
-      <br><br><br><br>
+    <div class="col-md-2 thumbnail">
+      <p align="left">PILIH UKURAN</p>
+      <br>
+     <select>
+        <option selected="selected">EU</option>
+        <option>US</option>
+        <option>UK</option>
+      </select>
+      <select >
+        <option selected="selected">UKURAN</option>
+        <option>38</option>
+        <option>39</option>
+        <option>40</option>
+        <option>41</option>
+        <option>42</option>
+      </select>
+    <br><br>
       <a href="cart.html">
         <button type="button" class="btn">PESAN</button>
       </a>
+      <br><hr>
+      <a href="wishlist.html">
+        <button type="button" class="btn">WISHLIST</button>
+      </a>
     </div>
-  </div>
+    
+    </div>
 
-  <br>
+    <br><hr><br>
 
-  <div class="container" id="thumbnail">
-    <div class="col-md-2">
+<div class="container">
+  <p align="right"><font face="tahoma" size="4"><b>PRODUK TERKAIT</b></font></p>
+<br><br>
+    <div class="col-md-3">
       <div class="thumbnail">
-        <img src="assets/img/item3.jpg" alt="imgae" style="max-width: 100%">
-        <p align="center">Size : M</p>
-      </div>
+          <a id="content" href="">
+            <img src="assets/img/salep1.jpg">
+            <p align="center">Anakara Long Sleeve Qora Hillside</p>
+            <p color="" align="center">Rp 449.000</p>
+          </a>
+        </div>
     </div>
 
-    <div class="col-md-2">
-      <p align="center">NAMA</p><br><br><br>
-      <p align="center">Zip Up Denim Dress</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">JUMLAH</p><br><br><br>
-      <P align="center"><input type="text" class="form-control" ng-model="item2" ng-init="1"></P>
-    </div>
-    <div class="col-md-2">
-      <p align="center">HARGA</p><br><br><br>
-      <p align="center">Rp 399.000</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">TOTAL</p><br><br><br>
-      <p align="center">Rp {{ item2 * harga2 }}</p>
-    </div>
-    <div class="col-md-2">
-      <br><br><br><br>
-      <button type="button" class="btn">PESAN</button>
-    </div>
-  </div>
-
-  <br>
-
-  <div class="container" id="thumbnail">
-    <div class="col-md-2">
+    <div class="col-md-3">
       <div class="thumbnail">
-        <img src="assets/img/item5.jpg" alt="imgae" style="max-width: 100%">
-        <p align="center">Size : -</p>
-      </div>
+          <a id="content" href="">
+            <img src="assets/img/salep2.jpg">
+            <p align="center">Arjuna Weda Hem Batik Bunga Lili</p>
+            <p color="" align="center">Rp 499.000</p>
+          </a>
+        </div>
     </div>
 
-    <div class="col-md-2">
-      <p align="center">NAMA</p><br><br><br>
-      <p align="center">Stuhrling Original</p>
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="">
+            <img src="assets/img/salep3.jpg">
+            <p align="center">Rianty Batik Kemeja Regan</p>
+            <p color="" align="center">Rp 499.900</p>
+          </a>
+        </div>
     </div>
-    <div class="col-md-2">
-      <p align="center">JUMLAH</p><br><br><br>
-      <P align="center"><input type="text" class="form-control" ng-model="item3" ng-init="1"></P>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <a id="content" href="">
+            <img src="assets/img/salep4.jpg">
+            <p align="center">Jayashree Batik Shortsleeve Kavi Slimfit</p>
+            <p color="" align="center">Rp 330.000</p>
+          </a>
+        </div>
     </div>
-    <div class="col-md-2">
-      <p align="center">HARGA</p><br><br><br>
-      <p align="center">Rp 3.309.000</p>
-    </div>
-    <div class="col-md-2">
-      <p align="center">TOTAL</p><br><br><br>
-      <p align="center">Rp {{ item3 * harga3 }}</p>
-    </div>
-    <div class="col-md-2">
-      <br><br><br><br>
-      <button type="button" class="btn">PESAN</button>
-    </div>
-  </div>
-</div>
+
+    <div class="col-md-3"></div>
+    <div class="col-md-4">
+    <div class="form-group">
+  <label for="comment">Comment:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+ 
+  </div></div></div>
   <br><br><br>
 
   <!-- .............. Footer ............... -->
